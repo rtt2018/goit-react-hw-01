@@ -6,6 +6,8 @@ import './App.css'
 import userData from "../src/userData.json";
 import friends from '../src/friends.json';
 import FriendList from './components/FriendList/FriendList.jsx'
+import transactions from '../src/transactions.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +24,7 @@ function App() {
 
       <FriendList friends={friends} />
 
+      <TransactionHistory items={transactions} />
 
       <h2>Ще нема на що дивитися ))) </h2>
       <div className="card">
