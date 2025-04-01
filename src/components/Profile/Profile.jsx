@@ -1,8 +1,6 @@
 import React from "react";
 
 export default function Profile({ name, tag, location, image, stats }) {
-    // const { name, tag, location, image, stats } = props;
-
     return (
         <div>
             <div>

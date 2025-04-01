@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import Profile from './components/Profile/Profile.jsx'
 import './App.css'
 import userData from "../src/userData.json";
-console.log("🚀 ~ userData:", userData)
+import friends from '../src/friends.json';
+import FriendList from './components/FriendList/FriendList.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,10 +20,11 @@ function App() {
         stats={userData.stats}
       />
 
+      <FriendList friends={friends} />
+
+
       <h2>Ще нема на що дивитися ))) </h2>
       <div className="card">
-
-
       </div>
 
     </>
