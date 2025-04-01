@@ -1,3 +1,5 @@
+import './FriendListItem.css';
+
 export default function FriendListItem({ friends }) {
     const { avatar, name, isOnline } = friends;
     return (
