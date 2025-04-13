@@ -1,7 +1,7 @@
 import './FriendListItem.css';
 
-export default function FriendListItem({ friends }) {
-    const { avatar, name, isOnline } = friends;
+export default function FriendListItem({ friend }) {
+    const { avatar, name, isOnline } = friend;
     return (
         <div>
             <img src={avatar} alt="Avatar" width="48" />
