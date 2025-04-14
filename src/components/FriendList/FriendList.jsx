@@ -3,10 +3,10 @@ import './FriendList.css';
 
 export default function FriendList({ friends }) {
     return (
-        <ul>
+        <ul className='friends-list'>
             {friends.map((friend) => {
                 return (
-                    <li key={friend.id}>
+                    <li className='friends-item' key={friend.id}>
                         <FriendListItem friend={friend} />
                     </li>
                 )

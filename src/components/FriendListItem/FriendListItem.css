@@ -1,0 +1,21 @@
+.is-online {
+  color: green;
+}
+.is-offline {
+  color: red;
+}
+
+.online-status {
+  margin: 4px 0 0 0;
+}
+
+.friend-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+
+.friend-list-card {
+  padding: 4px;
+}
